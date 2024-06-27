@@ -1,0 +1,27 @@
+Q.6) write a code to calculate simple intrest 
+
+ans:-// to calculate simple intrest
+#include <stdio.h>
+int main() {
+    int p,r,n;
+    printf("enter p");
+    scanf("%d", &p);
+    
+    printf("enter r");
+    scanf("%d", &r);
+    
+    printf("enter n");
+    scanf("%d", &n);
+    
+    
+    printf("simple intrest is : %d", (p*r*n) /100);
+    return 0;
+}
+
+explaination:-
+
+//               -for a statement
+int             -to define a variable 
+scanf        -to take input
+%d            -defines that side is integer
+&               -shows the location of variable 
