@@ -1,0 +1,21 @@
+Calculate area of square using C (side square)
+Ans) 
+
+code:- // to calculate area of square 
+#include <stdio.h>
+int main() {
+    int side;
+    printf("enter side");
+    scanf("%d", &side);
+    
+    printf("area is : %d", side * side);
+    return 0;
+}
+
+let me explain:-
+ 
+//            -for a statement
+int          -to define a variable 
+scanf     -to take input
+%d         -defines that side is intiger
+&            -shows the location of variable 
