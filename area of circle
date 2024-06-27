@@ -1,0 +1,23 @@
+Q.3) write a program to calculate area of circle (value of pi and square of radius)
+
+Ans:-// area of circle
+#include <stdio.h>
+int main() {
+    float radius;
+    printf("enter radius");
+    scanf("%f", &radius);
+    
+    printf("area is : %f" , 3.14 * radius * radius);
+    
+    return 0;
+}
+
+explaination:-
+
+float        -have enough size of 4 bytes 
+//            -for a statement
+scanf     -to take input
+%f          -defines that side is real number
+&            -shows the location of variable  
+
+(note:- you can get only 2 values after dot in output by simply typing .2 between % and f in printf line of second last )
