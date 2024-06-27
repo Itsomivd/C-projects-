@@ -1,0 +1,26 @@
+// addition of 2 intigers 
+#include <stdio.h>
+int main() {
+    int a, b;
+    printf("enter a");
+    scanf("%d", &a);
+    
+    printf("enter b");
+    scanf("%d" , &b);
+    
+    int sum = a + b;
+    printf("sum is : %d" , sum);
+    
+    return 0;
+}
+  
+explanation:-
+
+//            -for a statement
+int          -to define a variable 
+scanf     -to take input
+%d         -defines that side is intiger
+&            -shows the location of variable 
+=             -assignment operator
++             -addition operator
+(note - you can also write direct a+b insted of making a new variable that is "sum")
