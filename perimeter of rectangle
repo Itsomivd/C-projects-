@@ -1,0 +1,17 @@
+Q.4) write a program of calculate perimeter of rectangle take side a and b from the user 
+
+ans:- // to calculate perimeter of rectangle 
+#include <stdio.h>
+int main() {
+    int l,w;
+    printf("enter l");
+    scanf("%d", &l);
+    
+    printf("enter w");
+    scanf("%d", &w);
+    
+    
+    
+    printf("perimeter is : %d", (l * 2) + (w * 2)  );
+    return 0;
+}
