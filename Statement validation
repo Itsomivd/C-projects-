@@ -1,0 +1,10 @@
+Q.9) Are the following statements valid or not ?
+
+a) int a=8^8 --> yes but its not power its exor and the output is 0
+
+b) int x; int y=x; -->  yes
+
+c) int x,y= x; -->  invalid because we use terminator not comma                    
+                            in between x and y
+
+d) char stars= '**'; --> insufficient space for 2 digit 
