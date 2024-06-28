@@ -1,0 +1,27 @@
+Q.7) write a program to check if number is divisible by 2 or not.
+
+ans:-// number is divisible by 2 or not 
+        //if output is 0 it means no and output is other than 0 it means yes
+#include <stdio.h>
+#include <math.h>
+
+int main() {
+    int x;
+    printf("enter a number : "); 0
+    scanf("%d" , &x);
+    
+    printf("%d", x % 2 == 0);
+    
+    return 0;
+}
+
+explaination :-
+
+//                                  -for a statement(will not include in output)
+#include <math.h>                    -to code easier for mathematical operations  
+int                                 -to define a variable 
+scanf                           -to take input
+%d                                -defines that side is intiger
+&                                    -shows the location of variable 
+
+(note:- if output is 0(zero) it means no and output is other than 0 it means yes)
