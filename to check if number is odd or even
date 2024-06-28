@@ -1,0 +1,28 @@
+Q.8) write a program to check if number is odd or even.
+
+ans:-// for even -->1
+       // for odd -->0
+#include <stdio.h>
+#include <math.h>
+
+int main() {
+    int x;
+    printf("enter a number : ");
+    scanf("%d" , &x);
+    
+    printf("%d", x % 2 == 0);
+    
+    return 0;
+}
+
+explaination:-
+
+//                                  -for a statement(will not include in output)
+#include <math.h>    -to code easier for mathematical           
+                                      operations  
+int                                 -to define a variable 
+scanf                           -to take input
+%d                                -defines that side is intiger
+&                                   -shows the location of variable 
+
+(note:- in output, it will print 0 for odd number and 1 for even number)
